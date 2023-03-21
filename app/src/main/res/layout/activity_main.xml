@@ -7,20 +7,22 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Kepada"/>
-    <TextView
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Subjek"/>
-    <TextView
+
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="top"
-        android:hint="Pesan"/>
+        android:hint="Pesan" />
+
     <Button
         android:layout_width="100dp"
         android:layout_height="wrap_content"
